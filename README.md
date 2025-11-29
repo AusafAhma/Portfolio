@@ -13,17 +13,12 @@ A nostalgic portfolio website designed to look and feel like **Windows XP**! Thi
 ### Login Screen
 The classic Windows XP login screen greets visitors before they enter the portfolio.
 
-![Login Screen](./screenshots/login.png)
-
 ### Desktop View
 The main desktop with the iconic Bliss wallpaper, desktop icons, and taskbar.
-
-![Desktop](./screenshots/desktop.png)
 
 ### Windows & Content
 Draggable windows displaying portfolio sections with proper XP styling.
 
-![Windows](./screenshots/windows.png)
 
 ---
 
