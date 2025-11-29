@@ -1,0 +1,111 @@
+.projects {
+    background: transparent;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--spacing-xl);
+}
+
+.project-card {
+    padding: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    height: 100%;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+}
+
+.project-title {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    color: #000;
+    flex: 1;
+}
+
+.project-links {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #0055EA;
+    font-size: var(--font-size-lg);
+    transition: all var(--transition-base);
+}
+
+.project-link:hover {
+    background: #0055EA;
+    border-color: #0055EA;
+    color: white;
+    transform: scale(1.1);
+}
+
+.project-description {
+    font-size: var(--font-size-base);
+    color: #333;
+    line-height: 1.6;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+}
+
+.tech-tag {
+    padding: 0.4rem 0.9rem;
+    background: #E3F2FD;
+    border: 1px solid #0055EA;
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    color: #0055EA;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.project-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.project-highlights li {
+    font-size: var(--font-size-sm);
+    color: #555;
+    padding-left: var(--spacing-md);
+    position: relative;
+}
+
+.project-highlights li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #0055EA;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}

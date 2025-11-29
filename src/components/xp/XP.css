@@ -1,0 +1,60 @@
+:root {
+    /* XP Colors */
+    --xp-blue-title-start: #0058EE;
+    --xp-blue-title-end: #3A93FF;
+    --xp-taskbar-start: #245DDA;
+    --xp-taskbar-end: #1941A5;
+    --xp-start-btn-hover: #2B72E3;
+    --xp-window-bg: #ECE9D8;
+    --xp-window-text: #000000;
+    --xp-gray-light: #F1EFE2;
+    --xp-border-color: #0046D1;
+    --xp-highlight: #316AC5;
+
+    /* Fonts */
+    --xp-font: 'Tahoma', 'Verdana', sans-serif;
+
+    /* Dimensions */
+    --taskbar-height: 30px;
+}
+
+body {
+    font-family: var(--xp-font);
+    overflow: hidden;
+    /* Prevent body scroll, handle in windows */
+    background-color: #5A98D0;
+    /* Fallback - XP blue */
+    background-image: url('https://wallpapercave.com/wp/wp2037958.jpg');
+    /* Authentic Windows XP Bliss wallpaper */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Scrollbar for windows */
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-left: 1px solid #d4d4d4;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cdcdcd;
+    border: 1px solid #ffffff;
+    box-shadow: inset 1px 1px 0 #f0f0f0, inset -1px -1px 0 #8a8a8a;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #d4d4d4;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ffffff;
+    box-shadow: inset 1px 1px 0 #f0f0f0, inset -1px -1px 0 #8a8a8a;
+}
