@@ -28,6 +28,7 @@ const WindowFrame = ({
                     animate={{ scale: 1, opacity: 1, y: 0 }}
                     exit={{ scale: 0.8, opacity: 0 }}
                     onMouseDown={() => onFocus(id)}
+                    className="window-frame"
                     style={{
                         position: 'absolute',
                         top: '10%',

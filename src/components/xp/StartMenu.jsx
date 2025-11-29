@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { FaUser, FaBriefcase, FaCode, FaEnvelope, FaGraduationCap, FaPowerOff } from 'react-icons/fa';
 import './XP.css';
 
+import userImage from '../../assets/ausaf_new.jpg';
+
 const StartMenu = ({ isOpen, onClose, onOpenWindow }) => {
     if (!isOpen) return null;
 
@@ -20,6 +22,7 @@ const StartMenu = ({ isOpen, onClose, onOpenWindow }) => {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 20, opacity: 0 }}
             transition={{ duration: 0.1 }}
+            className="start-menu"
             style={{
                 position: 'fixed',
                 bottom: 'var(--taskbar-height)',
@@ -57,9 +60,9 @@ const StartMenu = ({ isOpen, onClose, onOpenWindow }) => {
                     background: '#fff'
                 }}>
                     <img
-                        src="https://api.dicebear.com/7.x/avataaars/svg?seed=Ausaf"
+                        src={userImage}
                         alt="User"
-                        style={{ width: '100%', height: '100%' }}
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     />
                 </div>
                 <span style={{ fontWeight: 'bold', fontSize: '16px', textShadow: '1px 1px 2px rgba(0,0,0,0.5)' }}>

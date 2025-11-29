@@ -37,11 +37,11 @@ const DesktopIcon = ({ label, icon, onClick, style }) => {
 
             <style>{`
         .desktop-icon:hover {
-          background-color: rgba(49, 106, 197, 0.4);
-          border: 1px dotted rgba(255, 255, 255, 0.5);
+            background-color: rgba(49, 106, 197, 0.4);
+            border: 1px dotted rgba(255, 255, 255, 0.5);
         }
         .desktop-icon:active {
-          background-color: rgba(49, 106, 197, 0.6);
+            background-color: rgba(49, 106, 197, 0.6);
         }
       `}</style>
         </div>
