@@ -33,6 +33,7 @@ const Projects = () => {
             title: 'Automatic Waste Segregation Management',
             description: 'A microcontroller-based IoT system for intelligent waste segregation using ML-powered image classification and cloud monitoring.',
             technologies: ['Python', 'AWS', 'OpenCV', 'IoT', 'Firebase'],
+            githubLink: 'https://github.com/AusafAhma/Automatic-Waste-Segregation-System.git',
             highlights: [
                 'Real-time waste segregation with sensors',
                 'ML model for waste classification',
