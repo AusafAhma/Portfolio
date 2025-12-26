@@ -36,27 +36,38 @@ const About = () => {
                         <div className="about-main">
                             <h3 className="subsection-title">Who I Am</h3>
                             <p className="about-text">
-                                I am an <strong>Electronics and Communication Engineering</strong> major with a deep passion for
-                                bridging the gap between hardware and software. My expertise lies in building scalable
-                                <span className="gradient-text"> full-stack applications</span>, developing
-                                <span className="gradient-text"> machine learning</span> models, and architecting
-                                <span className="gradient-text"> IoT systems</span>.
+                                I am an <strong>Electronics and Communication Engineering</strong> major with a strong interest in
+                                building practical, data-driven software solutions. My core strengths include
+                                <span className="gradient-text"> Web Development</span>,
+                                <span className="gradient-text"> Python Development</span>, and
+                                <span className="gradient-text"> Data Analytics</span>, where I focus on transforming ideas and data
+                                into reliable, user-focused applications.
                             </p>
+
+                            <p className="about-text">
+                                I have hands-on experience developing responsive web applications, analyzing and visualizing data
+                                using Python-based tools, and working with cloud platforms to deploy and manage applications.
+                                My background in engineering helps me approach problems analytically and build solutions that are
+                                both efficient and scalable.
+                            </p>
+
                             <p className="about-text">
                                 Currently, I am expanding my global perspective through an
                                 <strong> International MBA Exchange</strong> at National Taipei University of Technology, Taiwan,
-                                where I focus on information management and marketing to complement my technical background.
+                                with a focus on information management and marketing to complement my technical expertise.
                             </p>
                         </div>
+
                         <div className="about-side">
                             <h3 className="subsection-title">My Vision</h3>
                             <p className="about-text">
-                                I strive to create technology that is not only functional but also impactful.
-                                Whether it's enhancing safety through AI or optimizing waste management with IoT,
-                                my goal is to build solutions that solve real-world problems.
+                                I aim to develop technology that is meaningful, data-informed, and user-centric.
+                                Whether it is building analytical dashboards, backend systems, or web applications,
+                                my goal is to create solutions that address real-world problems and deliver measurable value.
                             </p>
                         </div>
                     </div>
+
 
                     <div className="about-stats">
                         <div className="stat-item">
