@@ -78,15 +78,7 @@ function App() {
     <div className="App" style={{ height: '100vh', width: '100vw', overflow: 'hidden' }} onClick={() => setIsStartOpen(false)}>
 
       {/* Desktop Icons */}
-      <div style={{
-        position: 'absolute',
-        top: '20px',
-        left: '20px',
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '20px',
-        zIndex: 0
-      }}>
+      <div className="desktop-icons-container">
         {windows.map(w => (
           <DesktopIcon
             key={w.id}

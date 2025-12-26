@@ -76,7 +76,9 @@ const Taskbar = ({ windows, activeWindowId, onToggleWindow, onStartClick, isStar
                         key={window.id}
                         onClick={() => onToggleWindow(window.id)}
                         style={{
-                            width: '160px',
+                            maxWidth: '160px',
+                            minWidth: '50px',
+                            flex: '1 1 auto',
                             height: '24px',
                             marginTop: '3px',
                             background: window.id === activeWindowId && !window.isMinimized
@@ -121,7 +123,7 @@ const Taskbar = ({ windows, activeWindowId, onToggleWindow, onStartClick, isStar
             }}>
                 {time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
             </div>
-        </div>
+        </div >
     );
 };
 
