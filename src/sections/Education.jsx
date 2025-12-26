@@ -46,7 +46,7 @@ const Education = () => {
 
     const certificates = [
         {
-            name: 'Cyber Security',
+            name: 'Data Analytics Job Simulation',
             issuer: 'Deloitte',
             date: 'April 2025',
             link: 'https://shy-haze-446.linkyhost.com',
@@ -56,11 +56,6 @@ const Education = () => {
             issuer: 'IIT Roorkee',
             date: 'March 2024',
             link: 'https://young-mountain-156.linkyhost.com',
-        },
-        {
-            name: 'Data Analytics Job Simulation',
-            issuer: 'Deloitte Australia',
-            date: '2024',
         },
         {
             name: 'Adobe India Hackathon - Round 1',

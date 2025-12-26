@@ -32,22 +32,31 @@ const About = () => {
                     viewport={{ once: true, amount: 0.3 }}
                     variants={fadeInUp}
                 >
-                    <p className="about-text">
-                        Electronics and Communication Engineering major with hands-on experience in my field,
-                        demonstrating strong technical expertise and initiative. Demonstrated success in
-                        <span className="gradient-text"> full-stack development</span>,
-                        <span className="gradient-text"> machine learning</span>, and
-                        <span className="gradient-text"> IoT projects</span>, effectively contributing as both
-                        a team member and leader in innovative technology roles.
-                    </p>
-
-                    <p className="about-text">
-                        Currently pursuing my <strong>B.Tech in Electronics and Communication Engineering</strong> at
-                        Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology, Chennai,
-                        while also participating in an <strong>International MBA Exchange Program</strong> at
-                        National Taipei University of Technology, Taiwan, focusing on information management,
-                        marketing, and core business subjects.
-                    </p>
+                    <div className="about-grid">
+                        <div className="about-main">
+                            <h3 className="subsection-title">Who I Am</h3>
+                            <p className="about-text">
+                                I am an <strong>Electronics and Communication Engineering</strong> major with a deep passion for
+                                bridging the gap between hardware and software. My expertise lies in building scalable
+                                <span className="gradient-text"> full-stack applications</span>, developing
+                                <span className="gradient-text"> machine learning</span> models, and architecting
+                                <span className="gradient-text"> IoT systems</span>.
+                            </p>
+                            <p className="about-text">
+                                Currently, I am expanding my global perspective through an
+                                <strong> International MBA Exchange</strong> at National Taipei University of Technology, Taiwan,
+                                where I focus on information management and marketing to complement my technical background.
+                            </p>
+                        </div>
+                        <div className="about-side">
+                            <h3 className="subsection-title">My Vision</h3>
+                            <p className="about-text">
+                                I strive to create technology that is not only functional but also impactful.
+                                Whether it's enhancing safety through AI or optimizing waste management with IoT,
+                                my goal is to build solutions that solve real-world problems.
+                            </p>
+                        </div>
+                    </div>
 
                     <div className="about-stats">
                         <div className="stat-item">

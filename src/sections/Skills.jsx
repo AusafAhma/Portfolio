@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import {
     FaPython, FaJs, FaReact, FaNode, FaDatabase,
-    FaGitAlt, FaAws
+    FaGitAlt, FaAws, FaMicrochip, FaFileExcel, FaChartBar, FaCloud
 } from 'react-icons/fa';
 import {
     SiMongodb, SiExpress, SiMysql, SiOpencv,
-    SiTensorflow, SiFirebase, SiC
+    SiTensorflow, SiFirebase, SiC, SiPandas, SiTableau
 } from 'react-icons/si';
 import './Skills.css';
 
@@ -24,18 +24,23 @@ const Skills = () => {
             title: 'Web Development',
             skills: [
                 { name: 'React.js', icon: <FaReact />, level: 90 },
-                { name: 'Node.js', icon: <FaNode />, level: 85 },
-                { name: 'Express.js', icon: <SiExpress />, level: 85 },
-                { name: 'MongoDB', icon: <SiMongodb />, level: 80 },
             ],
         },
         {
-            title: 'Database & Tools',
+            title: 'Data Analysis Visualization',
             skills: [
-                { name: 'MySQL', icon: <SiMysql />, level: 82 },
-                { name: 'Git', icon: <FaGitAlt />, level: 88 },
+                { name: 'Excel', icon: <FaFileExcel />, level: 82 },
+                { name: 'Pandas', icon: <SiPandas />, level: 88 },
+                { name: 'Tableau', icon: <SiTableau />, level: 75 },
+                { name: 'Power BI', icon: <FaChartBar />, level: 78 },
+            ],
+        },
+        {
+            title: 'Cloud Platforms',
+            skills: [
+                { name: 'Microsoft Azure', icon: <FaCloud />, level: 82 },
                 { name: 'AWS', icon: <FaAws />, level: 75 },
-                { name: 'Firebase', icon: <SiFirebase />, level: 78 },
+                { name: 'Firebase', icon: <SiFirebase />, level: 88 },
             ],
         },
         {
@@ -43,7 +48,7 @@ const Skills = () => {
             skills: [
                 { name: 'Machine Learning', icon: <SiTensorflow />, level: 80 },
                 { name: 'OpenCV', icon: <SiOpencv />, level: 75 },
-                { name: 'IoT', icon: <FaDatabase />, level: 78 },
+                { name: 'IoT', icon: <FaMicrochip />, level: 78 },
             ],
         },
     ];

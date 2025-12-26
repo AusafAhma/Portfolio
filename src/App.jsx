@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaUser, FaBriefcase, FaCode, FaEnvelope, FaGraduationCap, FaTrash } from 'react-icons/fa';
+import { FaUser, FaBriefcase, FaCode, FaEnvelope, FaGraduationCap, FaTrash, FaFilePdf } from 'react-icons/fa';
 import About from './sections/About';
 import Skills from './sections/Skills';
 import Education from './sections/Education';
@@ -95,6 +95,11 @@ function App() {
             onClick={(e) => { e.stopPropagation(); handleOpenWindow(w.id); }}
           />
         ))}
+        <DesktopIcon
+          label="My Resume"
+          icon={<FaFilePdf color="#B71C1C" />}
+          onClick={(e) => { e.stopPropagation(); window.open('/resume.pdf', '_blank'); }}
+        />
         <DesktopIcon
           label="Recycle Bin"
           icon={<FaTrash color="#555" />}
