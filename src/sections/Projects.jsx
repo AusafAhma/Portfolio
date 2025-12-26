@@ -6,11 +6,11 @@ import './Projects.css';
 const Projects = () => {
     const projects = [
         {
-            title: 'Omnifood Website',
-            description: 'A fully responsive food delivery website built from scratch with smooth animations, mobile-first design, and interactive elements showcasing modern frontend development.',
-            technologies: ['HTML5', 'CSS3', 'JavaScript'],
-            liveLink: 'https://lnkd.in/gejeA_GC',
-            githubLink: 'https://lnkd.in/gRciewt7',
+            title: 'Portfolio Website',
+            description: 'A fully responsive portfolio website built from scratch with smooth animations, mobile-first design, and interactive elements showcasing modern frontend development.',
+            technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Framer Motion', 'Vite', 'Tailwind CSS'],
+            liveLink: 'https://ausafahmad.com',
+            githubLink: 'https://github.com/AusafAhma/Portfolio.git',
             highlights: [
                 'Responsive design with mobile-first approach',
                 'Smooth animations and transitions',
